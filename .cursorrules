@@ -1,0 +1,5 @@
+Built using ink cli with typescript, the entry point is `"bin": "dist/cli.js"` as per the package.json.
+
+This is a cli tool that will prompt a user for an app name, if the app name is not supplied, that app name will be v0.
+
+Once a app name is chosen, it will create new folder according to the app name and copy over the contents of ./template into the new folder.
